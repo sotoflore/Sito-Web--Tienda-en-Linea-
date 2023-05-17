@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: #fff;
+    z-index: 2;
+}
+.logo a{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-decoration:  line-through;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 1.2rem 0 1.2rem;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    background-color: #000;
+    border-radius: .5rem;
+    color: #fff;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+nav ul li a i{
+    font-size: 1.2rem;
+    padding: 0 .2rem 0 0;
+}
+.tu-compra i{
+    font-size: 2rem;
+    color: #f30909;
+}
+.contenido-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: url("./imagenes/fondo-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.introduccion{
+    color: #fff;
+    font-weight: bolder;
+}
+.introduccion h1{
+    font-size: 3.3rem;
+    line-height: 3rem;
+}
+.introduccion p{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    text-decoration: underline;
+}
+.introduccion a{
+    position: relative;
+    top: 3rem;
+    padding: 1.3rem;
+    text-decoration: none;
+    background-color: #bdc00d;
+    border-radius: 1.2rem;
+    color: #000;
+}
+.contenido-1 figure{
+    width: 16rem;
+    height: 50vh;
+    display: flex;
+    margin: -5rem 10rem 0 0;
+}
+.contenido-1 figure img{
+    width: 100%;
+    height: 100%;
+}
+.image2-inicio {
+    position: relative;
+    z-index: 1;
+    right: 25%;
+    top: 30%;
+}
+.contenido-2 {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #031d2c;
+}
+.contenido-2 h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.descripcion {
+    text-align: center;
+    width: 43%;
+}
+.destacado {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.destacadoItem {
+    width: 16rem;
+    padding: 1.2rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: #10102a;
+    border: .1rem solid #10102a;
+    transition: all .2s linear;
+    border: .1rem solid #fff;
+}
+.destacadoItem:hover {
+    border-color: aqua;
+    transform: scale(1.01);
+    background-color: #090921;
+    box-shadow: 0 0 1rem 0 #cbc0c0;
+}
+.texto-destacado {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prenda{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1rem 0;
+}
+.prenda i{
+    color: #bdc00d;
+}
+.prenda ul {
+    display: flex;
+    list-style: none;
+}
+.prenda ul li {
+    padding-left: .2rem;
+}
+.imagen img{
+    width: 100%;
+    border-radius: 5%;
+}
+article p {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #060320;
+    color: #fff;
+}
+.sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+}
+.sobre-nosotros a,
+.sobre-nosotros p{
+    color: #fff;
+    padding: .2rem 0 0 0;
+}
+.redes-sociales,
+.contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos-redes-sociales,
+.iconos-contactos{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+.iconos-redes-sociales a,
+.iconos-contactos a{
+    color: #fff;
+    text-decoration: none;
+}
+.iconos-redes-sociales i,
+.iconos-contactos i{
+    font-size: 1.5rem;
+    padding: .7rem 1.5rem 0 2rem;
+    color: #fff;
+    text-align: center;
+}
+.instagram i{
+    color: #e9091c;
+}
+.twitter i{
+    color: rgb(23, 136, 189);
+}
+.whatsapp i{
+    color: green;
+}
+/********************************************************** Ropa para Hombre *****************/
+.boton-filtro {
+    float: left;
+    background-color: #b3a70a;
+    width: 15%;
+    height: 120vh;
+}
+.boton-filtro button {
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.boton-filtro button:hover {
+    background-color: #e4dc6f;
+    text-decoration: underline;
+}
+.boton-filtro button.active {
+    background-color: #000;
+    color: #fff;
+}
+.tabcontent {
+    flex-wrap: wrap;
+    float: left;
+    padding: 0px 12px;
+    width: 85%;
+    border-left: none;
+}
+.prenda-camiseta{
+    width: 30%;
+    height: 57vh;
+    margin: 0 16px 15px 16px;
+    border: 1px solid #000;
+}
+.prenda-camiseta img{
+    width: 100%;
+}
+.prenda-camiseta h3,
+.prenda-camiseta p{
+    padding: 10px 0 0 10px;
+}
+.prenda-camiseta a{
+    position: relative;
+    top: 20px;
+    padding: 8px;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+}
+/**************************************************** Diseño responsivo *************************/
+@media screen and (max-width:767px){
+    header{
+        width: 100%;
+    }
+    .logo a{
+        font-size: 1rem;
+    }
+    nav ul li a span{
+        display: none;
+    }
+    nav ul li a i{
+        font-size: 2rem;
+        padding:0;
+    }
+    nav a:hover{
+        color: #fff;
+        padding: .3rem;
+        transition: all .3s ease-in-out;
+    }
+    .contenido-1{
+        width: 100%;
+        height: 100%;
+        background-attachment:initial;
+        justify-content: center;
+    }
+    .contenido-1 figure{
+        width: 0;
+        margin: 0;
+    }
+    .introduccion{
+        width: 100%;
+    }
+    .introduccion h1,
+    .introduccion p,
+    .introduccion a{
+        margin-left:2rem;;
+    }
+    .introduccion h1{
+        font-size:5.5vw;
+        line-height: 1.8rem;
+    }
+    .introduccion p{
+        font-size:3.5vw;
+
+    }
+    .introduccion a{
+        font-size: .8rem;
+        top:1rem;
+        padding: .7rem;
+    }
+    figure img{
+        display: none;
+    }
+    .contenido-2{
+        height: 100%;
+    }
+    .contenido-2 h2{
+        margin: 2rem 0 1rem 0;
+    }
+    .descripcion{
+        width: 80%;
+        text-align: justify;
+    }
+    footer{
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .sobre-nosotros{
+        text-align: center;
+        margin: 1.5rem 0 2rem 0;
+    }
+    .contactos{
+        margin: 1.5rem 0 2rem 0
+    }
+    /***************************************** para la seccion de ropa */
+    .tabcontent{
+        width: 70%;
+        justify-content:space-around;
+    }
+    .boton-filtro{
+        width: 30%;
+       
+    }
+    .prenda-camiseta{
+        width: 100%;
+        
+    }
+}
+@media screen and (min-width:767px) and (max-width:950px){
+   .contenido-1 figure img{
+     width: auto;
+   }
+   .contenido-1 figure .image2-inicio{
+     display: none;
+   }
+   .contenido-1 figure .image1-inicio{
+    margin-left: 4rem;
+    border-radius:  50% 50% 50% 0;
+   }
+   .contenido-2{
+    height: 100%;
+   }
+   .contenido-2 h2{
+    margin: 2rem 0 1rem 0;
+    }
+    .descripcion{
+        width: 80%;
+        text-align: justify;
+    }
+    .introduccion h1,
+    .introduccion p,
+    .introduccion a{
+        margin-left:3rem;;
+    }
+    .introduccion h1{
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+    .introduccion p{
+        line-height: 1.6rem;
+    }
+    /***************************************** para la seccion de ropa */
+    nav ul li .bx{
+        display: none;
+    }
+    .tabcontent{
+        width: 80%;
+        justify-content:center;
+    }
+    .boton-filtro{
+        width: 20%;
+    }
+    .prenda-camiseta{
+        width: 40%;
+    }
+}
+@media screen and (min-width:950px) and (max-width:1170px){
+    .introduccion h1,
+    .introduccion p,
+    .introduccion a{
+        margin-left:3rem;;
+    }
+    .contenido-1 figure .image2-inicio{
+        right: 50%;
+        top: 50%;
+    }
+
+    /***************************************** para la seccion de ropa */
+    .boton-filtro{
+        width: 18%;
+    }
+    .tabcontent{
+        width: 82%;
+        justify-content:center;
+    }
+    .prenda-camiseta{
+        width: 40%;
+    }
+}

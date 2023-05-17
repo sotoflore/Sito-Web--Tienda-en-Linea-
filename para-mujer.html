@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa para Mujeres</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">Tu tienda en Línea</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class='bx bx-home-alt-2'></i><span>Inicio</span></a></li>
+                <li><a href="para-hombre.html"><i class='bx bx-male'></i><span>Ropa Para Hombres</span></a></li>
+                <li><a href="para-mujer.html"><i class='bx bx-female'></i></i><span>Ropa Para Mujeres</span></a></li>
+            </ul>
+        </nav>
+        <div class="tu-compra">
+            <a href="#"><i class='bx bxs-cart-download'></i></a>
+        </div>
+    </header>
+    <main class="seccion-mujer">
+        <section class="boton-filtro">
+            <button class="boton" onclick="openCity(event, 'camiseta')" id="defaultOpen">Camisetas</button>
+            <button class="boton" onclick="openCity(event, 'camisa')">Camisas</button>
+            <button class="boton" onclick="openCity(event, 'pantalon')">Jeans</button>
+            <button class="boton" onclick="openCity(event, 'zapato')">Zapatos</button>
+            <button class="boton" onclick="openCity(event, 'accesorio')">Accesorios</button>
+            <button class="boton" onclick="openCity(event, 'deportiva')">Ropa Deportiva</button>
+        </section>
+        <section class="lista-prenda-image">
+            <div id="camiseta" class="tabcontent">
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-mujer1.png" alt="prenda-camiseta">
+                    <h3>Camiseta 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-mujer1.png" alt="prenda-camiseta">
+                    <h3>Camiseta 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-mujer1.png" alt="prenda-camiseta">
+                    <h3>Camiseta 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-mujer1.png" alt="prenda-camiseta">
+                    <h3>Camiseta 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-2.jpg" alt="prenda-camiseta">
+                    <h3>Camiseta 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-2.jpg" alt="prenda-camiseta">
+                    <h3>Camiseta 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+            </div>
+            <div id="camisa" class="tabcontent">
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda.jpg" alt="prenda-camisa">
+                    <h3>Camisa 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda.jpg" alt="prenda-camisa">
+                    <h3>Camisa 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda.jpg" alt="prenda-camisa">
+                    <h3>Camisa 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda.jpg" alt="prenda-camisa">
+                    <h3>Camisa 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda.jpg" alt="prenda-camisa">
+                    <h3>Camisa 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda.jpg" alt="prenda-camisa">
+                    <h3>Camisa 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+            </div>
+            <div id="pantalon" class="tabcontent">
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-pantalon.jpg" alt="prenda-pantalon">
+                    <h3>Pantalon 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-pantalon.jpg" alt="prenda-pantalon">
+                    <h3>Pantalon 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-pantalon.jpg" alt="prenda-pantalon">
+                    <h3>Pantalon 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-pantalon.jpg" alt="prenda-pantalon">
+                    <h3>Pantalon 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-pantalon.jpg" alt="prenda-pantalon">
+                    <h3>Pantalon 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/prenda-pantalon.jpg" alt="prenda-pantalon">
+                    <h3>Pantalon 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+            </div>
+            <div id="zapato" class="tabcontent">
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/zapato_mujer.png" alt="zapato">
+                    <h3>Zapato 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/zapato_mujer.png" alt="zapato">
+                    <h3>Zapato 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/zapato_mujer.png" alt="zapato">
+                    <h3>Zapato 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/zapato_mujer.png" alt="zapato">
+                    <h3>Zapato 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/zapato_mujer.png" alt="zapato">
+                    <h3>Zapato 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/zapato_mujer.png" alt="zapato">
+                    <h3>Zapato 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+            </div>
+            <div id="accesorio" class="tabcontent">
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/accesorio1.jpg" alt="accesorio">
+                    <h3>Accesorio 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/accesorio2.jpg" alt="accesorio">
+                    <h3>Accesorio 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/accesorio3.jpg" alt="accesorio">
+                    <h3>Accesorio 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/accesorio4.jpg" alt="accesorio">
+                    <h3>Accesorio 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/accesorio1.jpg" alt="accesorio">
+                    <h3>Accesorio 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/accesorio2.jpg" alt="accesorio">
+                    <h3>Accesorio 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+            </div>
+            <div id="deportiva" class="tabcontent">
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/deportiva1.jpg" alt="ropa-deportiva">
+                    <h3>Ropa Deportiva 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/deportiva1.jpg" alt="ropa-deportiva">
+                    <h3>Ropa Deportiva 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/deportiva1.jpg" alt="ropa-deportiva">
+                    <h3>Ropa Deportiva 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/deportiva1.jpg" alt="ropa-deportiva">
+                    <h3>Ropa Deportiva 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/deportiva1.jpg" alt="ropa-deportiva">
+                    <h3>Ropa Deportiva 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+                <div class="prenda-camiseta">
+                    <img src="./imagenes/deportiva1.jpg" alt="ropa-deportiva">
+                    <h3>Ropa Deportiva 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Comprar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="sobre-nosotros">
+            <a href="#">Sobre nosotros</a>
+            <a href="" target="_blank">Terminos y Condiciones</a>
+            <a href="" target="_blank">P0líticas de Privacidad</a>
+            <p>&copy; 2023 Tienda en Línea</p>
+        </div>
+        <div class="redes-sociales">
+            <h2>Síguenos</h2>
+            <div class="iconos-redes-sociales">
+                <span>
+                    <a href=""><i class='bx bxl-facebook-square'></i><br>Facebook</a>
+                </span>
+                <span>
+                    <a class="instagram" href=""><i class='bx bxl-instagram-alt'></i><br>instagram</a>
+                </span>
+                <span>
+                    <a class="twitter" href=""><i class='bx bxl-twitter' ></i><br>Twitter</a>
+                </span>
+            </div>
+        </div>
+        <div class="contactos">
+            <h2>Contáctanos</h2>
+            <div class="iconos-contactos">
+                <span>
+                    <a class="whatsapp"  href=""><i class='bx bxl-whatsapp'></i><br>Whatsapp</a>
+                </span>
+                <span>
+                    <a  href=""><i class='bx bx-envelope'></i><br>E-mail</a>
+                </span>
+                <span>
+                    <a href=""><i class='bx bxs-phone'></i><br>Teléfono</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
